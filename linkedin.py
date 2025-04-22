@@ -17,8 +17,8 @@ from textblob import TextBlob
 import torch
 from collections import Counter
 
-LINKEDIN_USERNAME = 'madethisjustforcursorai@gmail.com'
-LINKEDIN_PASSWORD = 'hotcoffee'
+LINKEDIN_USERNAME = 'YOUR-LINKEDIN-USERNAME'
+LINKEDIN_PASSWORD = 'YOUR-LINKEDIN-PASSWORD'
 
 # Initialize BERT and keyword models
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
